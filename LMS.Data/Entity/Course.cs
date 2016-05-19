@@ -28,7 +28,7 @@ namespace LMS.Data.Entity
         [StringLength(255)]
         public string Name { get; set; }
 
-        public string Duration { get; set; }
+        public int Duration { get; set; }
 
         public  int DefaultPrice { get; set; }
     }
